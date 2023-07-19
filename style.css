@@ -65,22 +65,17 @@ a ul{
 }
 
 /* banner section start */
-/* .banner-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px;
-} */
+
 .banner-text{
     background-image: url("images/Group\ 14.png");
     width: 901px;
-    height: 600px;
+    height: auto;
     flex-shrink: 0;
     fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 }
 .banner-img{
     width: 711px;
-    height: 600px;
+    height: auto;
     flex-shrink: 0;
     background-image: url(images/Group\ 18.png);
 }
@@ -138,6 +133,7 @@ margin-top: 5px;
 /* second banner section start */
 .second-banner-section{
     display: flex;
+    padding: 100px;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -171,11 +167,53 @@ margin-top: 5px;
     margin-bottom: 10px;
 }
 
-/* start online game sectin  */
+/* start play instantly sections */
+.play-instantly-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.play-instantly-img .play-img{
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    position: relative;
+    right: 700px;
+    top: 80px;
+}
+.play-instantly-text{
+    width: 400px;
+    text-align: right;
+}
+.play-instantly-text>h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-instantly-text>p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.play-instantly-img img{
+    width: 600px;
+    height: 550px;
+    flex-shrink: 0;border-radius: 8px;
+    background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repeat;
+}
+
+/* start online game section  */
 .online-game-container{
     display: flex;
     width: 80%;
-    align-items: center;
     justify-content: space-around;
     margin: 0 auto;
 
