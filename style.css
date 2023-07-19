@@ -176,6 +176,18 @@ margin-top: 5px;
     justify-content: space-between;
     padding: 50px;
 }
+.play-span{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .play-instantly-img .play-img{
     width: 250px;
     height: 300px;
@@ -189,14 +201,39 @@ margin-top: 5px;
     text-align: right;
 }
 .play-instantly-text>h1{
+    color: #0B0223;
+    font-family: Work Sans;
     font-size: 48px;
+    font-style: normal;
     font-weight: 700;
     line-height: 60px;
+}
+.online-game-span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
 }
+.online-game-head{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-game-text{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
 .play-instantly-text>p{
     color: #534C64;
     font-size: 18px;
@@ -236,9 +273,7 @@ margin-top: 5px;
     line-height: 30px;
     margin-top: 10px;
 }
-.online-game:hover{
-    
-}
+
 
 
 /* start game section  */
