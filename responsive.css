@@ -1,0 +1,106 @@
+
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        width: 100%;
+        margin:0 auto;
+    }
+    .nav-menu ul{
+        flex-direction: column;
+    }
+    .nav-img{
+        width:100%;
+        margin-left: 140px;
+        margin-bottom: 30px;
+    }
+
+    
+    .banner-container{
+        flex-direction: column-reverse;
+        
+    }
+    .banner-text{
+        width: 80%;
+        padding: 20px;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .banner-img{
+        width: 80%;
+        background-size: cover;
+        margin: 0 auto;
+    }
+    .banner-text-content{
+        width: 100%;
+        margin: 100px auto;
+        
+    }
+    .legend{
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 800;
+        text-align: center;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+     }
+     .banner-text-head{
+        color: #0B0223;
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+ }
+ .banner-text-pera{
+    font-size: 1rem;
+    margin-top: 20px;
+     }
+     .btn{
+        margin-top: 30px;
+     }
+
+     .second-banner-section{
+        flex-direction: column;
+     }
+
+     .second-banner-img img{
+        width: 100%;
+    }
+    .second-banner-text{
+        width: 100%;
+    }
+    .second-banner-text{
+        text-align: center;
+        width: 100%;
+    }
+
+    .list-container{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .game img{
+        height: 40px;
+        width: 40px;
+    }
+    .game>h4{
+        font-size: 12px;
+    }
+    .online-game-container{
+        flex-direction: column;
+    }
+    .play-instantly-container{
+        flex-direction: column;
+    }
+.game-content1{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.game-content2{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+}
